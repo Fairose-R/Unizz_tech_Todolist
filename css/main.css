@@ -1,0 +1,70 @@
+:root {
+  --mainWhite: #db8b8b;
+  --mainGreen: #80cfa9;
+  --mainBlack: #333333;
+  --mainRed: #d62828;
+  --mainBlue: #11b5e4;
+}
+body {
+  font-family: poppins;
+  background: var(--mainWhite);
+  color: #333333;
+}
+#itemInput{
+  font-size: 20px;
+}
+.btn-green {
+  border-color:  var(--mainGreen) ;
+  background: transparent;
+  color: white;
+}
+.btn-green:hover {
+  background:rgb(120, 219, 62);
+  color: black;
+}
+.form-control {
+  border-color: var(--mainGreen) !important;
+}
+
+.feedback {
+  display: none;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(233, 183, 183);
+  border-radius: 4px;
+  padding:5px;
+}
+.item-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.complete-item {
+  color: var(--mainGreen);
+}
+.complete-item:hover {
+  color: var(--mainGreen);
+}
+.edit-item {
+  color: var(--mainBlue);
+}
+.edit-item:hover {
+  color: var(--mainBlue);
+}
+.delete-item {
+  color: var(--mainRed);
+}
+.delete-item:hover {
+  color: var(--mainRed);
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.visibility {
+  opacity: 0.5;
+}
+.showItem {
+  display: block;
+}
